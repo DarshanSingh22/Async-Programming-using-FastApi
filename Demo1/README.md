@@ -5,7 +5,5 @@ Steps for Demo:
 4. Run the simulate_users file with desired endpoint 
 
 
-To run the main server in using gunicorn : 
-
-for multiple workers
+To run a server with multiple workers
 `uvicorn main:app --workers 4 --port 8000`
